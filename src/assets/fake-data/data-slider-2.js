@@ -6,34 +6,14 @@ import imgbg2 from '../images/slider/bg_slide_2.png'
 
 const heroSliderData = [
     {
-        title_1: "Discover, and collect",
-        title_2: "extraordinary",
-        title_3: "Monster ",
-        title_4: "NFTs",
-        description: "Marketplace for monster character cllections non fungible token NFTs",
-        img: img1,
-        imgbg: imgbg1,
-        class: 'left'
-    },
-    {
-        title_1: "Discover, find,",
-        title_2: "Sell extraordinary",
-        title_3: "Monster ",
-        title_4: "NFTs",
-        description: "Marketplace for monster character cllections non fungible token NFTs",
+        title_1: "Stake. Govern.",
+        title_2: "Support and win rewards",
+        title_3: "TedCrypto",
+        title_4: "Nodes",
+        description: "Support crypto ecosystems by staking your coins and get rewards at same time!",
         img: img2,
         imgbg: imgbg2,
         class: 'center'
-    },
-    {
-        title_1: "Discover, find,",
-        title_2: "Sell extraordinary",
-        title_3: "Monster ",
-        title_4: "NFTs",
-        description: "Marketplace for monster character cllections non fungible token NFTs",
-        img: img2,
-        imgbg: imgbg2,
-        class: 'right'
     },
 ]
 
