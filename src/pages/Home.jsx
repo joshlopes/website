@@ -10,6 +10,7 @@ import Sponsors from "../components/layouts/home-2/Sponsors";
 import Communities from "../components/layouts/home-2/Communities";
 import Nodes from "../components/layouts/home-2/Nodes";
 import nodesData from '../assets/fake-data/nodes';
+import Team from "../components/layouts/home-2/Team";
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Communities />
             <Sponsors />
             <FAQ />
+            <Team />
             <Contact />
             <Footer />
         </div>

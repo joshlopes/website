@@ -10,7 +10,7 @@ const Communities = () => {
         setVisible((prevValue) => prevValue + 3);
     }
     return (
-        <section className="tf-section our-creater dark-style2" id="sponsors">
+        <section className="tf-section our-creater dark-style2" id="community">
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">

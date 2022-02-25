@@ -6,6 +6,7 @@ import Create from '../components/layouts/home-2/Create';
 import SliderStyle1 from '../components/slider/SliderStyle1';
 import Contact from '../components/layouts/home-2/Contact';
 import FAQ from '../components/layouts/home-2/FAQ';
+import Team from '../components/layouts/home-2/Team';
 
 
 const Home02 = () => {
@@ -13,8 +14,6 @@ const Home02 = () => {
         <div className='home-2'>
             <Header />
             <SliderStyle1 data={heroSliderData} />
-            <Create />
-            <FAQ />
             <Contact />
             <Footer />
         </div>

@@ -37,7 +37,7 @@ const FAQ = () => {
         ]
     )
     return (
-            <section className="tf-section wrap-accordion bg-style" id="FAQ">
+            <section className="tf-section wrap-accordion" id="FAQ">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">

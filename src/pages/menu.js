@@ -1,13 +1,8 @@
 const menus = [
     {
-        id: 1,
-        name: 'Home',
-        links: '/',
-    },
-    {
         id: 2,
-        name: 'Nodes',
-        links: '#nodes',
+        name: 'Network',
+        links: '#network',
     },
     {
         id: 4,
@@ -26,6 +21,11 @@ const menus = [
     },
     {
         id: 7,
+        name: 'Team',
+        links: '#team',
+    },
+    {
+        id: 8,
         name: 'Contact',
         links: '#Contact',
     },

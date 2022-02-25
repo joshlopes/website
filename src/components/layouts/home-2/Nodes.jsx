@@ -9,7 +9,7 @@ const Nodes = props => {
 
     return (
         <Fragment>
-            <section className="tf-section sc-explore-1 bg-style" id="nodes">
+            <section className="tf-section sc-explore-1 bg-style" id="network">
                 <div className="themesflat-container">
                     <div className="row">
                         <div className="col-md-12">

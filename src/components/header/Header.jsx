@@ -3,7 +3,10 @@ import { Link , useLocation } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import menus from "../../pages/menu";
 import DarkMode from './DarkMode';
-
+import logoheader from '../../assets/images/logo/logo.png'
+import logoheader2x from '../../assets/images/logo/logo@2x.png'
+import logodark from '../../assets/images/logo/logo_dark.png'
+import logodark2x from '../../assets/images/logo/logo_dark@2x.png'
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -45,7 +48,8 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <h1>TedCrypto</h1>
+                                            <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark2x}`} alt="nft-gaming" />
+                                            <img className='logo-light'  id="logo_header" src={logoheader} srcSet={`${logoheader2x}`} alt="nft-gaming" />
                                         </Link>
                                     </div>
                                 </div>
