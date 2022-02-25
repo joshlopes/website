@@ -3,87 +3,27 @@ import { Link } from 'react-router-dom'
 import logodark from '../../assets/images/logo/logo_dark.png'
 import logofooter from '../../assets/images/logo/logo2.png'
 const Footer = () => {
-    const accountList = [
-        {
-            title: "Authors",
-            link: "/authors-01"
-        },
-        {
-            title: "Collection",
-            link: "/wallet-connect"
-        },
-        {
-            title: "Author Profile",
-            link: "/edit-profile"
-        },
-        {
-            title: "Create Item",
-            link: "/create-item"
-        },
-    ]
-    const resourcesList = [
-        {
-            title: "Help & Support",
-            link: "/help-center"
-        },
-        {
-            title: "Live Auctions",
-            link: "/live-auctions"
-        },
-        {
-            title: "Item Details",
-            link: "/item-details-01"
-        },
-        {
-            title: "Activity",
-            link: "/activity-01"
-        },
-    ]
-    const companyList = [
-        {
-            title: "Explore",
-            link: "/explore-01"
-        },
-        {
-            title: "Contact Us",
-            link: "/contact-01"
-        },
-        {
-            title: "Our Blog",
-            link: "/blog"
-        },
-        {
-            title: "FAQ",
-            link: "/faq"
-        },
-    ]
     const socialList = [
         {
             icon: "fab fa-twitter",
-            link: "#"
+            link: "https://twitter.com/tedcrypto_",
         },
         {
             icon: "fab fa-facebook",
-            link: "#"
+            link: "https://www.facebook.com/tedcryptofficial"
         },
         {
             icon: "fab fa-telegram-plane",
-            link: "#"
-        },
-        {
-            icon: "fab fa-youtube",
-            link: "#"
-        },
-        {
-            icon: "icon-fl-tik-tok-2",
-            link: "#"
+            link: "https://t.me/TedcryptoOfficial"
         },
         {
             icon: "icon-fl-vt",
-            link: "#"
+            link: "https://discord.gg/QRnxxgqNTC"
         },
-
-
+        {
+            icon: "fab fa-instagram",
+            link: "https://www.instagram.com/tedcrypto_"
+        },
     ]
 
     const [isVisible, setIsVisible] = useState(false);
@@ -124,45 +64,22 @@ const Footer = () => {
                                     </Link>
                                 </div>
                                 <p className="sub-widget-logo">
-                                    Promoting healthy crypto discussions and environment. We offer tools to help anyone reach their max potential
-                                    and support the ecosystem.
+                                    Promoting healthy environment for crypto discussions, teaching and learning.
+                                    We are also a validator company supporting your favourite projects in your favourite
+                                    blockchains!
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">
                             <div className="widget widget-menu style-1">
-                                <h5 className="title-widget">My Account</h5>
-                                <ul>
-                                    {
-                                        accountList.map((item,index) =>(
-                                            <li key={index}><Link to={item.link}>{item.title}</Link></li>
-                                        ))
-                                    }
-                                </ul>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-7 col-7">
                             <div className="widget widget-menu style-2">
-                                <h5 className="title-widget">Resources</h5>
-                                <ul>
-                                    {
-                                        resourcesList.map((item,index) =>(
-                                            <li key={index}><Link to={item.link}>{item.title}</Link></li>
-                                        ))
-                                    }
-                                </ul>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">
                             <div className="widget widget-menu fl-st-3">
-                                <h5 className="title-widget">Company</h5>
-                                <ul>
-                                    {
-                                        companyList.map((item,index) =>(
-                                            <li key={index}><Link to={item.link}>{item.title}</Link></li>
-                                        ))
-                                    }
-                                </ul>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-7 col-12">

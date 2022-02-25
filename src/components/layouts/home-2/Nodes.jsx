@@ -40,7 +40,7 @@ const Nodes = props => {
                                         </div>
                                         <div className="card-bottom center">
                                             {item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
-                                                <a href={item.stakeUrl}>Stake</a>
+                                                <a href={item.stakeUrl} target="_blank">Stake</a>
                                             </button>}
                                             {!item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
                                                 Comming soon
