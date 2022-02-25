@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link';
 import { Navigation, Scrollbar, A11y   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
@@ -27,7 +28,7 @@ const SliderStyle1 = props => {
                         <SwiperSlide key={index} className={item.class}>
                             <SliderItem item={item} />
                         </SwiperSlide>
-                        
+
                     ))
                 }
         </Swiper>
@@ -54,34 +55,36 @@ const SliderItem = props => (
         <div className="swiper-container mainslider home">
             <div className="swiper-wrapper">
                 <div className="swiper-slide">
-                    <div className="slider-item">	
+                    <div className="slider-item">
                         <div className="themesflat-container ">
                             <div className="wrap-heading flat-slider flex">
                                 <div className="content">
-                                    <h2 className="heading">{props.item.title_1}</h2>	
-                                    <h1 className="heading mb-style"><span className="">{props.item.title_2}</span>                                          
+                                    <h2 className="heading">{props.item.title_1}</h2>
+                                    <h1 className="heading mb-style"><span className="">{props.item.title_2}</span>
                                     </h1>
                                     <h1 className="heading"><span className='fill'>{props.item.title_3}</span>{props.item.title_4}</h1>
                                     <p className="sub-heading">{props.item.description}
                                     </p>
                                     <div className="flat-bt-slider flex style2">
-                                        <Link to="/explore-01" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Explore
-                                        </span></Link>
-                                        <Link to="/create-item" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Create
-                                        </span></Link>
+                                        <HashLink to="#nodes" className="sc-button header-slider style style-1 rocket fl-button pri-1">
+                                            <span>Stake</span>
+                                        </HashLink>
+                                        <HashLink to="#community" className="sc-button header-slider style style-1 note fl-button pri-1">
+                                            <span>Community</span>
+                                        </HashLink>
                                     </div>
                                 </div>
                                 <div className="image">
                                     <img className="img-bg" src={props.item.imgbg} alt="axies" />
                                     <img src={props.item.img} alt="axies" />
                                 </div>
-                            </div>   
-                        </div>					                           
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
-    
+
 )
 export default SliderStyle1;

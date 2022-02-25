@@ -1,7 +1,7 @@
 import blockInvestLogo from '../images/sponsors/blockinvest-logo.png'
 import cryptoRuimLogo from '../images/sponsors/crypto-ruim-logo.jpg'
 
-const popularCollectionData = [
+const sponsorsData = [
     {
         imgAuthor: blockInvestLogo,
         name: "BlockInvest",
@@ -18,4 +18,4 @@ const popularCollectionData = [
     },
 ]
 
-export default popularCollectionData;
+export default sponsorsData;

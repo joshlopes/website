@@ -82,7 +82,7 @@ const Footer = () => {
             icon: "icon-fl-vt",
             link: "#"
         },
-        
+
 
     ]
 
@@ -94,7 +94,7 @@ const Footer = () => {
         behavior: "smooth"
       });
     };
-  
+
     useEffect(() => {
       const toggleVisibility = () => {
         if (window.pageYOffset > 500) {
@@ -103,13 +103,13 @@ const Footer = () => {
           setIsVisible(false);
         }
       };
-  
+
       window.addEventListener("scroll", toggleVisibility);
-  
+
       return () => window.removeEventListener("scroll", toggleVisibility);
     }, []);
 
-      
+
     return (
         <div>
             <footer id="footer" className="footer-light-style clearfix bg-style">
@@ -119,12 +119,14 @@ const Footer = () => {
                             <div className="widget widget-logo">
                                 <div className="logo-footer" id="logo-footer">
                                     <Link to="/">
-                                        <img className='logo-dark' id="logo_footer" src={logodark} alt="nft-gaming" />
-                                        <img className='logo-light' id="logo_footer" src={logofooter} alt="nft-gaming" />
-                                        
+                                        <img className='logo-dark' id="logo_footer" src={logodark} alt="tedcrypto" />
+                                        <img className='logo-light' id="logo_footer" src={logofooter} alt="tedcrypto" />
                                     </Link>
                                 </div>
-                                <p className="sub-widget-logo">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
+                                <p className="sub-widget-logo">
+                                    Promoting healthy crypto discussions and environment. We offer tools to help anyone reach their max potential
+                                    and support the ecosystem.
+                                </p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">
@@ -187,43 +189,9 @@ const Footer = () => {
                 </div>
             </footer>
             {
-                isVisible && 
+                isVisible &&
                 <Link onClick={scrollToTop}  to='#' id="scroll-top"></Link>
             }
-            
-            <div className="modal fade popup" id="popup_bid" tabIndex="-1" role="dialog" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered" role="document">
-                    <div className="modal-content">
-                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div className="modal-body space-y-20 pd-40">
-                            <h3>Place a Bid</h3>
-                            <p className="text-center">You must bid at least <span className="price color-popup">4.89 ETH</span>
-                            </p>
-                            <input type="text" className="form-control"
-                                placeholder="00.00 ETH" />
-                            <p>Enter quantity. <span className="color-popup">5 available</span>
-                            </p>
-                            <input type="number" className="form-control" placeholder="1" />
-                            <div className="hr"></div>
-                            <div className="d-flex justify-content-between">
-                                <p> You must bid at least:</p>
-                                <p className="text-right price color-popup"> 4.89 ETH </p>
-                            </div>
-                            <div className="d-flex justify-content-between">
-                                <p> Service free:</p>
-                                <p className="text-right price color-popup"> 0,89 ETH </p>
-                            </div>
-                            <div className="d-flex justify-content-between">
-                                <p> Total bid amount:</p>
-                                <p className="text-right price color-popup"> 4 ETH </p>
-                            </div>
-                            <Link to="#" className="btn btn-primary" data-toggle="modal" data-target="#popup_bid_success" data-dismiss="modal" aria-label="Close"> Place a bid</Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
 
