@@ -4,6 +4,7 @@ import axelarLogo from '../images/crypto/axelar/Axelar-small-logo.svg';
 import evmosLogo from '../images/crypto/evmos/evmos-logo.svg';
 import cerberusLogo from '../images/crypto/cerberus/website_logo.png';
 import konstellationLogo from '../images/crypto/konstellation/konstellation_logo.svg';
+import bitsongLogo from '../images/crypto/bitsong/bitsong_logo.svg';
 
 const nodesData = [
     {
@@ -28,6 +29,14 @@ const nodesData = [
         logo: konstellationLogo,
         apr: "0%",
         stakeUrl: 'https://wallet.konstellation.tech/staking/delegate',
+        isEnabled: true,
+    },
+    {
+        name: "Bitsong",
+        tags: "cosmos",
+        logo: bitsongLogo,
+        apr: "36.40%",
+        stakeUrl: 'https://wallet.bitsong.io/#/validators/bitsongvaloper1qxw4fjged2xve8ez7nu779tm8ejw92rv0vcuqr',
         isEnabled: true,
     },
     {

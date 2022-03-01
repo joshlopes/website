@@ -1,11 +1,8 @@
-import React , { useState , Fragment } from 'react';
+import React , { Fragment } from 'react';
 import PropTypes from 'prop-types'
-import CardModal from '../CardModal';
 
 const Nodes = props => {
     const data = props.data;
-
-    const [modalShow, setModalShow] = useState(false);
 
     return (
         <Fragment>
@@ -53,10 +50,6 @@ const Nodes = props => {
                     </div>
                 </div>
             </section>
-            <CardModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-            />
         </Fragment>
     );
 }

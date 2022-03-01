@@ -44,15 +44,15 @@ const Team = () => {
                             <img src={Deke} alt="" />
                         </div>
                         <div className="infor">
-                            <h4>D3k3</h4><br/>
+                            <h4>d3k010</h4><br/>
                             <p>
-                                José, 34 years old, is a sxxx and a crypto enthusiast.<br/>
-                                Living in France.<br/>
-                                Started is journey in crypto in 2017, with a vast experience in finance
-                                and different blockchain projects.
+                                JC, healthcare professional, 38 years old, resident in France,
+                                passionate about the financial markets, involved in crypto since late 2018,
+                                self-taught and aggressive consumer of information available on the web.<br/>
+                                Be able to aspire to change
                             </p><br/>
                             <p>
-                                "I believe in give more than receive"
+                                "The basis of success is based on focus, continuous work and dedication 🙏"
                             </p><br/>
                             <h5>Founder of TedCrypto</h5>
                         </div>
@@ -67,9 +67,8 @@ const Team = () => {
                         <div className="infor">
                             <h4>BT</h4><br/>
                             <p>
-                                Rafael, 34 years old, is a sxxx and a crypto enthusiast.<br/>
-                                Living in France.<br/>
-                                José's friend both started to share the same passion about crypto.
+                                BT, crypto enthusiast and passionate about economics and finance. <br/>
+                                Likes innovation and interaction between people
                             </p><br/>
                             <p>
                                 "I believe in give more than receive"
