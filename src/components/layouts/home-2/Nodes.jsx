@@ -18,7 +18,7 @@ const Nodes = props => {
                         </div>
                         {
                             data.map((item,index) => (
-                                <div key={index} className="fl-item col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                <div key={index} className="fl-item col-lg-4 col-md-6 col-sm-6">
                                     <div className={`sc-card-product`}>
                                         <div className="meta-info">
                                             <div className="author">
@@ -32,14 +32,17 @@ const Nodes = props => {
                                             </div>
                                             <div className="price">
                                                 <span>Current APR/APY</span>
-                                                <h5>{item.apr}</h5>
+                                                <h5>~{item.apr}</h5>
                                             </div>
                                         </div>
                                         <div className="card-bottom center">
                                             {item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
                                                 <a href={item.stakeUrl} target="_blank">Stake</a>
                                             </button>}
-                                            {!item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
+                                            {item.isTest && <button className="sc-button style bag fl-button pri-3 no-bg">
+                                                Testnet
+                                            </button>}
+                                            {!item.isTest && !item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
                                                 Comming soon
                                             </button>}
                                         </div>
