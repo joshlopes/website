@@ -32,7 +32,7 @@ const Nodes = props => {
                                             </div>
                                             <div className="price">
                                                 <span>Current APR/APY</span>
-                                                <h5>~{item.apr}</h5>
+                                                <h5>~{item.apr}%</h5>
                                             </div>
                                         </div>
                                         <div className="card-bottom center">
