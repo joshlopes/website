@@ -64,8 +64,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
                                 <p className="sub-widget-logo">
-                                    Promoting healthy environment for crypto discussions, teaching and learning.
-                                    We are also a validator company supporting your favourite projects in your favourite
+                                    We are a validator company supporting your favourite projects in your favourite
                                     blockchains!
                                 </p>
                             </div>
@@ -84,7 +83,7 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-7 col-12">
                             <div className="widget widget-subcribe">
-                                <h5 className="title-widget">Subscribe Us</h5>
+                                <h5 className="title-widget">Subscribe for Updates</h5>
                                 <div className="form-subcribe">
                                     <form id="subscribe-form" action="#" method="GET" acceptCharset="utf-8" className="form-submit">
                                         <input name="email"  className="email" type="email" placeholder="info@yourgmail.com" required />

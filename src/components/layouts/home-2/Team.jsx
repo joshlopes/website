@@ -9,10 +9,12 @@ const Team = () => {
         <div className="themesflat-container">
             <div className="row">
                 <div className="col-md-12">
-                    <h2 className="tf-title style4 mg-bt-38">Team</h2>
+                    <h2 className="tf-title style4 mg-bt-38">Our Team</h2>
+                    <h4>Brought together by crypto with only one goal: to bring crypto to more people</h4>
                     <h5 className="sub-title help-center mg-bt-32 ">
-                        We are fastly growing, with different backgrounds from IT, Marketing and Design. Brought together by crypto
-                        with only one goal, to bring crypto to more people. Always looking for more talented people, Join Us!
+                        We're growing. And fast.<br/>
+                        From IT to Marketing to Design, our unique backgrounds give us an edge over other validators.<br/>
+                        We're on the lookout for talented members. Reach out to find out more.
                     </h5>
                 </div>
                 <div className="sc-card-activity style-2 col-12">

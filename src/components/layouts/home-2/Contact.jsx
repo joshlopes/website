@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
     const [state, setState] = React.useState({
-        btnText: "Send Message",
+        btnText: "Send",
         disabled: false,
         timer: null,
     });
@@ -24,7 +24,7 @@ const Contact = () => {
         if (!name || !email || !subject || !message) {
             setState({disabled: false, btnText: "Fill all required inputs!"});
             state.timer = setTimeout(() => {
-                setState({disabled: false, btnText: "Send Message"});
+                setState({disabled: false, btnText: "Send"});
             }, 3000);
             return;
         }
@@ -41,7 +41,7 @@ const Contact = () => {
         } else {
             setState({disabled: false, btnText: "Failed to send message! Try again."});
             state.timer = setTimeout(() => {
-                setState({disabled: false, btnText: "Send Message"});
+                setState({disabled: false, btnText: "Send"});
             }, 3000);
         }
     }
@@ -57,18 +57,17 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                     <h2 className="tf-title-heading style-2 mg-bt-12">
-                        Drop Up A Message
+                        Get in Touch!
                     </h2>
                     <h5 className="sub-title style-1">
-                        We will try to reply as soon as possible. You should always prefer contact us through
-                        Telegram and Discord. We are always open to discuss new ideas and new projects.
+                        We're always open to feedback and new ideas. If you need a quick response, come and join our Telegram and Discord!
                     </h5>
                     <div className="form-inner">
                         <form id="contactform" noValidate="novalidate" className="form-submit" onSubmit={(e) => handleSubmit(e)}>
                             <input id="name" name="name" tabIndex="1" aria-required="true" type="text"
-                                   placeholder="Your Full Name" required/>
+                                   placeholder="Full Name" required/>
                             <input id="email" name="email" tabIndex="2" aria-required="true" type="email"
-                                   placeholder="Your Email Address" required/>
+                                   placeholder="Email Address" required/>
                             <div className="row-form style-2" id="subject">
                                 <select name="subject">
                                     <option value="Problem Staking">Problem Staking</option>

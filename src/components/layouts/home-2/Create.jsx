@@ -8,26 +8,26 @@ import icon4 from '../../../assets/images/icon/Bookmark.png'
 const Create = () => {
     const data = [
         {
-            title: "Buy your crypto",
+            title: "Buy Crypto Your Way",
             description: "Buy and hold your crypto in your favourite wallet (non-exchange) like KEPLR, MetaMask, Trust Wallet, MyEtherWallet, WalletConnect, etc.",
             icon : walletIcon,
             colorbg : "icon-color1"
         },
         {
-            title: "Find and stake",
-            description: "From our node list, find the node for your crypto and press stake. You don't find one? Join us in discord and telegram and suggest it so we start working on your validator!",
+            title: "Find and Stake",
+            description: "We make staking simple. Browse our node list, find your favourite, and stake. Can't find the one you want? Let us know on Discord and Telegram",
             icon : categoryIcon,
             colorbg : "icon-color2",
         },
         {
-            title: "Rewards",
-            description: "Your rewards will gradually increase over time and you can claim them at any time. Stake it again and earn more rewards over your rewards!",
+            title: "Get Rewards",
+            description: "With us, your rewards will keep growing and growing. Claim your earnings at any time.",
             icon : icon3,
             colorbg : "icon-color3",
         },
         {
             title: "Govern",
-            description: "Check your wallet page / software. From there you will find a governance tab where you can vote in the project proposals. It's optional but important to vote!",
+            description: "We value our community and their opinion. Governance tab is optional, but we encourage you to become an active and vital member of your cosmos projects.",
             icon : icon4,
             colorbg : "icon-color4",
         },

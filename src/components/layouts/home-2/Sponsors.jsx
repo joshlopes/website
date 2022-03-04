@@ -14,9 +14,9 @@ const Sponsors = () => {
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="tf-title style4 mg-bt-38">Sponsors</h2>
+                        <h2 className="tf-title style4 mg-bt-38">Our Sponsors</h2>
                         <h5 className="sub-title help-center mg-bt-32 ">
-                            Thanks to everyone that contribute to keep Ted running. Take a look at their blogs!
+                            Thank you to our sponsors that help keep Tedcrypto running Check out their blogs below to share the support!
                         </h5>
                     </div>
                     {

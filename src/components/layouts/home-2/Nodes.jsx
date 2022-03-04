@@ -10,10 +10,9 @@ const Nodes = props => {
                 <div className="themesflat-container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h2 className="tf-title style4 mg-bt-38">Our network</h2>
+                            <h2 className="tf-title style4 mg-bt-38">Our Network</h2>
                             <h5 className="sub-title help-center mg-bt-32 ">
-                                We have a wide range of servers in dedicated datacenters, monitoring tools and a team that works around the clock to ensure that these
-                                servers are always up and running.
+                                Our wide range of dedicated servers are monitored 24/7 by our team to ensure our network is always up and always helping you earn rewards
                             </h5>
                         </div>
                         {
@@ -36,14 +35,14 @@ const Nodes = props => {
                                             </div>
                                         </div>
                                         <div className="card-bottom center">
-                                            {item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
+                                            {item.isEnabled && <button className="sc-button style wallet fl-button pri-3">
                                                 <a href={item.stakeUrl} target="_blank">Stake</a>
                                             </button>}
                                             {item.isTest && <button className="sc-button style bag fl-button pri-3 no-bg">
                                                 Testnet
                                             </button>}
                                             {!item.isTest && !item.isEnabled && <button className="sc-button style bag fl-button pri-3 no-bg">
-                                                Comming soon
+                                                Coming Soon
                                             </button>}
                                         </div>
                                     </div>

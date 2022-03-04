@@ -13,14 +13,14 @@ const sponsorsData = [
     {
         imgAuthor: cryptoRuimLogo,
         name: "Crypto Ruim",
-        description: 'Crypto in portuguese',
+        description: 'Crypto in Portuguese',
         link: 'https://cryptoruim.wixsite.com/blogruim',
         buttonLabel: 'Read',
     },
     {
         imgAuthor: cronquerorsNode,
         name: "CROnquerorsNode",
-        description: 'Top 100 validator in Crypto.org',
+        description: 'Top 100 validator at Crypto.org',
         link: 'https://wallet.keplr.app/#/crypto-org/stake?modal=detail&validator=crocncl1s078nr9kp4ulsxgnsasnr3k6zg5q9erps348eg',
         buttonLabel: 'Stake CRO',
     },

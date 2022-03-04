@@ -14,10 +14,9 @@ const Communities = () => {
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="tf-title style4 mg-bt-38">Communities</h2>
+                        <h2 className="tf-title style4 mg-bt-38">Our Community</h2>
                         <h5 className="sub-title help-center mg-bt-32 ">
-                            We would like to welcome everyone to be part of a bigger family! Portuguese is our main language
-                            but we are always open to new languages and we will support you in your crypto journey.
+                            Come and join our crypto family! We mainly speak Portuguese, but we welcome people from across the globe.
                         </h5>
                     </div>
                     {

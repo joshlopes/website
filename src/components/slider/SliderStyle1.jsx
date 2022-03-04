@@ -60,17 +60,16 @@ const SliderItem = props => (
                             <div className="wrap-heading flat-slider flex">
                                 <div className="content">
                                     <h2 className="heading">{props.item.title_1}</h2>
-                                    <h1 className="heading mb-style"><span className="">{props.item.title_2}</span>
-                                    </h1>
-                                    <h1 className="heading"><span className='fill'>{props.item.title_3}</span>{props.item.title_4}</h1>
-                                    <p className="sub-heading">{props.item.description}
-                                    </p>
+                                    <h1 className="heading mb-style"><span className="">{props.item.title_2}</span></h1>
+                                    <p className="sub-heading">{props.item.description}</p>
                                     <div className="flat-bt-slider flex style2">
-                                        <HashLink to="#nodes" className="sc-button header-slider style style-1 rocket fl-button pri-1">
+                                        <HashLink to="#nodes" className="sc-button header-slider style style-1 wallet fl-button pri-1">
                                             <span>Stake</span>
                                         </HashLink>
-                                        <HashLink to="#community" className="sc-button header-slider style style-1 note fl-button pri-1">
-                                            <span>Community</span>
+                                    </div><br/><br/>
+                                    <div className="flat-bt-slider flex style2">
+                                        <HashLink to="#commnity" className="sc-button header-slider style style-1 rocket fl-button pri-1">
+                                            <span>Join our community</span>
                                         </HashLink>
                                     </div>
                                 </div>
