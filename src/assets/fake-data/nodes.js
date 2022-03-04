@@ -1,12 +1,14 @@
-import cryptoLogo from '../images/crypto/cronos/crypto/crypto_logo.svg';
+import cryptoLogo from '../chains/logo/crypto-org.png';
 import nomicLogo from '../images/crypto/nomic/nomic-logo.svg';
-import axelarLogo from '../images/crypto/axelar/Axelar-small-logo.svg';
-import evmosLogo from '../images/crypto/evmos/evmos-logo.svg';
+import axelarLogo from '../chains/logo/axelar.png';
+import evmosLogo from '../chains/logo/evmos.png';
 import cerberusLogo from '../images/crypto/cerberus/website_logo.png';
-import konstellationLogo from '../images/crypto/konstellation/konstellation_logo.svg';
-import bitsongLogo from '../images/crypto/bitsong/bitsong_logo.svg';
+import konstellationLogo from '../chains/logo/konstellation.png';
+import bitsongLogo from '../chains/logo/bitsong.png';
 import another1Logo from '../images/crypto/another1/another-1.svg';
 import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
+import regenLogo from '../chains/logo/regen.png';
+import comdexLogo from '../chains/logo/comdex.png';
 
 const nodesData = [
     {
@@ -19,7 +21,16 @@ const nodesData = [
         price: 0,
     },
     {
-        name: "Tedcrypto (Nomic)",
+        name: "EVMOs",
+        tags: "cosmos",
+        logo: evmosLogo,
+        apr: "0",
+        stakeUrl: 'https://evmos.disperze.network/validators/evmosvaloper19fv2gwkgv3x53lau3um6tzg7qxvq96grvg97zr',
+        isEnabled: true,
+        isTest: false,
+    },
+    {
+        name: "Nomic",
         tags: "cosmos",
         logo: nomicLogo,
         apr: "800",
@@ -60,15 +71,6 @@ const nodesData = [
         isTest: true,
     },
     {
-        name: "EVMOs",
-        tags: "cosmos",
-        logo: evmosLogo,
-        apr: "0",
-        stakeUrl: '',
-        isEnabled: false,
-        isTest: true,
-    },
-    {
         name: 'Cerberus',
         tags: "cosmos",
         logo: cerberusLogo,
@@ -80,6 +82,22 @@ const nodesData = [
         name: "Axelar",
         tags: "cosmos",
         logo: axelarLogo,
+        apr: "0",
+        stakeUrl: '',
+        isEnabled: false,
+    },
+    {
+        name: "Regen",
+        tags: "cosmos",
+        logo: regenLogo,
+        apr: "0",
+        stakeUrl: '',
+        isEnabled: false,
+    },
+    {
+        name: "Comdex",
+        tags: "cosmos",
+        logo: comdexLogo,
         apr: "0",
         stakeUrl: '',
         isEnabled: false,
