@@ -102,6 +102,7 @@ const nodesData = [
         apr: "0",
         stakeUrl: 'https://cerberus.network/',
         isEnabled: false,
+        isTest: false,
     },
 ]
 
