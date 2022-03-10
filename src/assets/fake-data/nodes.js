@@ -70,6 +70,14 @@ const nodesData = [
         isEnabled: true,
     },
     {
+        name: "Regen",
+        tags: "cosmos",
+        logo: regenLogo,
+        apr: "26",
+        stakeUrl: 'https://wallet.keplr.app/#/regen/stake?modal=detail&validator=regenvaloper18wqvu2wtmudsx4tk3shgey7s299ma32v7jxmv5',
+        isEnabled: true,
+    },
+    {
         name: "Another1",
         tags: "cosmos",
         logo: another1Logo,
@@ -93,14 +101,6 @@ const nodesData = [
         logo: cerberusLogo,
         apr: "0",
         stakeUrl: 'https://cerberus.network/',
-        isEnabled: false,
-    },
-    {
-        name: "Regen",
-        tags: "cosmos",
-        logo: regenLogo,
-        apr: "0",
-        stakeUrl: '',
         isEnabled: false,
     },
 ]
