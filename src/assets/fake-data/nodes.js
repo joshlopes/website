@@ -65,7 +65,7 @@ const nodesData = [
         name: "Comdex",
         tags: "cosmos",
         logo: comdexLogo,
-        apr: "0",
+        apr: "48",
         stakeUrl: 'https://comdex.ezstaking.io/validators/comdexvaloper1zf8k0qlvr0uq4gy73ex9vhjxwlwls7kaxt9jk2',
         isEnabled: true,
     },
