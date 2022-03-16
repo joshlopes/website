@@ -70,6 +70,15 @@ const nodesData = [
         isEnabled: true,
     },
     {
+        name: 'Cerberus',
+        tags: "cosmos",
+        logo: cerberusLogo,
+        apr: "2000",
+        stakeUrl: 'https://ping.pub/cerberus/staking/cerberusvaloper1c4pewt03f0fnwrf4vcgawzl6pllm3l9kfffu7l',
+        isEnabled: true,
+        isTest: false,
+    },
+    {
         name: "Regen",
         tags: "cosmos",
         logo: regenLogo,
@@ -94,15 +103,6 @@ const nodesData = [
         stakeUrl: 'https://testnet.mintscan.io/axelar-testnet/validators/axelarvaloper1hv0ajhge8pu6r8l3fq3c6pdmfv9dnv2alhug7p',
         isEnabled: false,
         isTest: true,
-    },
-    {
-        name: 'Cerberus',
-        tags: "cosmos",
-        logo: cerberusLogo,
-        apr: "0",
-        stakeUrl: 'https://cerberus.network/',
-        isEnabled: false,
-        isTest: false,
     },
 ]
 
