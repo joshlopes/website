@@ -32,13 +32,13 @@ const Communities = () => {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h4><Link to="/author-02">{item.name}</Link></h4>
+                                                <h4>{item.name}</h4>
                                                 <div className="infor">
                                                     <span>{item.description}</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link to={item.link} className="sc-button fl-button pri-3"><span>{item.buttonLabel}</span></Link>
+                                        <a href={item.link} target="_blank" className="sc-button fl-button pri-3"><span>{item.buttonLabel}</span></a>
                                     </div>
                                 </div>
                             </div>
