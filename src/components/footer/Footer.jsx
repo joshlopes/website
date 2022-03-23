@@ -9,20 +9,12 @@ const Footer = () => {
             link: "https://twitter.com/tedcrypto_",
         },
         {
-            icon: "fab fa-facebook",
-            link: "https://www.facebook.com/tedcryptofficial"
-        },
-        {
             icon: "fab fa-telegram-plane",
             link: "https://t.me/TedcryptoOfficial"
         },
         {
             icon: "icon-fl-vt",
             link: "https://discord.gg/QRnxxgqNTC"
-        },
-        {
-            icon: "fab fa-instagram",
-            link: "https://www.instagram.com/tedcrypto_"
         },
     ]
 
@@ -94,7 +86,7 @@ const Footer = () => {
                                     <ul>
                                         {
                                             socialList.map((item,index) =>(
-                                                <li key={index}><Link to={item.link}><i className={item.icon}></i></Link></li>
+                                                <li key={index}><a href={item.link} target="_blank"><i className={item.icon}></i></a></li>
                                             ))
                                         }
                                     </ul>
