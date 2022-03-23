@@ -2,7 +2,7 @@ import cryptoLogo from '../chains/logo/crypto-org.png';
 import nomicLogo from '../images/crypto/nomic/nomic-logo.svg';
 import axelarLogo from '../chains/logo/axelar.png';
 import evmosLogo from '../chains/logo/evmos.png';
-import cerberusLogo from '../images/crypto/cerberus/website_logo.png';
+import cerberusLogo from '../chains/logo/cerberus.png';
 import konstellationLogo from '../chains/logo/konstellation.png';
 import bitsongLogo from '../chains/logo/bitsong.png';
 import another1Logo from '../images/crypto/another1/another-1.svg';
