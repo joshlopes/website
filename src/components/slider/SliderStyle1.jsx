@@ -63,12 +63,12 @@ const SliderItem = props => (
                                     <h1 className="heading mb-style"><span className="">{props.item.title_2}</span></h1>
                                     <p className="sub-heading">{props.item.description}</p>
                                     <div className="flat-bt-slider flex style2">
-                                        <HashLink to="#nodes" className="sc-button header-slider style style-1 wallet fl-button pri-1">
+                                        <HashLink to="#network" className="sc-button header-slider style style-1 wallet fl-button pri-1">
                                             <span>Stake</span>
                                         </HashLink>
                                     </div><br/><br/>
                                     <div className="flat-bt-slider flex style2">
-                                        <HashLink to="#commnity" className="sc-button header-slider style style-1 rocket fl-button pri-1">
+                                        <HashLink to="#community" className="sc-button header-slider style style-1 rocket fl-button pri-1">
                                             <span>Join our community</span>
                                         </HashLink>
                                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import JoshLopes from "../../../assets/images/team/josh_lopes.jpg";
+import JoshLopes from "../../../assets/images/team/josh_lopes.png";
 import Deke from "../../../assets/images/team/deke.jpg";
 import Bt from "../../../assets/images/team/bt.jpg";
 
@@ -10,10 +10,8 @@ const Team = () => {
             <div className="row">
                 <div className="col-md-12">
                     <h2 className="tf-title style4 mg-bt-38">Our Team</h2>
-                    <h4>Brought together by crypto with only one goal: to bring crypto to more people</h4>
                     <h5 className="sub-title help-center mg-bt-32 ">
-                        We're growing. And fast.<br/>
-                        From IT to Marketing to Design, our unique backgrounds give us an edge over other validators.<br/>
+                        Brought together by crypto with only one goal: to bring crypto to more people
                         We're on the lookout for talented members. Reach out to find out more.
                     </h5>
                 </div>
@@ -35,7 +33,7 @@ const Team = () => {
                                 with the right mindset. I do believe in the potential of Crypto in the world and
                                 I'm very excited to see how it will impact the world."
                             </p><br/>
-                            <h5>Founder of TedCrypto</h5>
+                            <h5>Co-Founder of TedCrypto</h5>
                         </div>
                     </div>
                 </div>
@@ -56,7 +54,7 @@ const Team = () => {
                             <p>
                                 "The basis of success is based on focus, continuous work and dedication 🙏"
                             </p><br/>
-                            <h5>Founder of TedCrypto</h5>
+                            <h5>Co-Founder of TedCrypto</h5>
                         </div>
                     </div>
                 </div>

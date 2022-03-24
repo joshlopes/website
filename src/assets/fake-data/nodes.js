@@ -50,7 +50,7 @@ const nodesData = [
         tags: "cosmos",
         logo: bitsongLogo,
         apr: "36.40",
-        stakeUrl: 'https://wallet.bitsong.io/#/validators/bitsongvaloper1qxw4fjged2xve8ez7nu779tm8ejw92rv0vcuqr',
+        stakeUrl: 'https://ping.pub/bitsong/staking/bitsongvaloper1qxw4fjged2xve8ez7nu779tm8ejw92rv0vcuqr',
         isEnabled: true,
     },
     {
