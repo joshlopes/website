@@ -1,6 +1,6 @@
 import React from "react";
 import JoshLopes from "../../../assets/images/team/josh_lopes.png";
-import Deke from "../../../assets/images/team/deke.jpg";
+import d3k010 from "../../../assets/images/team/d3k010.png";
 import Bt from "../../../assets/images/team/bt.jpg";
 
 const Team = () => {
@@ -41,7 +41,7 @@ const Team = () => {
                 <div className="sc-card-activity style-2 col-12">
                     <div className="content">
                         <div className="media">
-                            <img src={Deke} alt="" />
+                            <img src={d3k010} alt="" />
                         </div>
                         <div className="infor">
                             <h4>d3k010</h4><br/>
