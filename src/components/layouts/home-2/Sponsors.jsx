@@ -38,7 +38,7 @@ const Sponsors = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <a to={item.link} target="_blank" className="sc-button fl-button pri-3"><span>{item.buttonLabel}</span></a>
+                                        <a href={item.link} target="_blank" className="sc-button fl-button pri-3"><span>{item.buttonLabel}</span></a>
                                     </div>
                                 </div>
                             </div>
