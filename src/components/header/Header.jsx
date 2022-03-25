@@ -80,6 +80,14 @@ const Header = () => {
                                         }
                                     </ul>
                                 </nav>
+                                <div className="flat-search-btn flex">
+
+                                    <div className="sc-btn-top mg-r-12" id="site-header">
+                                        <Link to="#" className="sc-button header-slider style style-1 wallet fl-button pri-1"><span>Wallet connect
+                                        </span></Link>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>

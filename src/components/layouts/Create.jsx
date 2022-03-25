@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import walletIcon from '../../../assets/images/icon/Wallet.png'
-import categoryIcon from '../../../assets/images/icon/Category.png'
-import icon3 from '../../../assets/images/icon/Image2.png'
-import icon4 from '../../../assets/images/icon/Bookmark.png'
+import walletIcon from '../../assets/images/icon/Wallet.png'
+import categoryIcon from '../../assets/images/icon/Category.png'
+import icon3 from '../../assets/images/icon/Image2.png'
+import icon4 from '../../assets/images/icon/Bookmark.png'
 
 const Create = () => {
     const data = [

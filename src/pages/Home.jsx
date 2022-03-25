@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
-import heroSliderData from '../assets/fake-data/data-slider-2';
-import Create from '../components/layouts/home-2/Create';
+import heroSliderData from '../assets/static-data/data-slider';
+import Create from '../components/layouts/Create';
 import SliderStyle1 from '../components/slider/SliderStyle1';
-import Contact from '../components/layouts/home-2/Contact';
-import FAQ from "../components/layouts/home-2/FAQ";
-import Sponsors from "../components/layouts/home-2/Sponsors";
-import Communities from "../components/layouts/home-2/Communities";
-import Nodes from "../components/layouts/home-2/Nodes";
-import nodesData from '../assets/fake-data/nodes';
-import Team from "../components/layouts/home-2/Team";
+import Contact from '../components/layouts/Contact';
+import FAQ from "../components/layouts/FAQ";
+import Sponsors from "../components/layouts/Sponsors";
+import Communities from "../components/layouts/Communities";
+import Nodes from "../components/layouts/Nodes";
+import nodesData from '../assets/static-data/nodes';
+import Team from "../components/layouts/Team";
 
 const Home = () => {
     return (

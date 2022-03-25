@@ -1,22 +1,22 @@
 import React , { useState } from 'react';
 import { Link } from 'react-router-dom';
-import communitiesData from '../../../assets/fake-data/communities';
+import sponsorsData from '../../assets/static-data/sponsors';
 
-const Communities = () => {
-    const [data] = useState(communitiesData);
+const Sponsors = () => {
+    const [data] = useState(sponsorsData);
 
     const [visible , setVisible] = useState(6);
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 3);
     }
     return (
-        <section className="tf-section our-creater dark-style2" id="community">
+        <section className="tf-section our-creater bg-style " id="sponsors">
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="tf-title style4 mg-bt-38">Our Community</h2>
+                        <h2 className="tf-title style4 mg-bt-38">Our Sponsors</h2>
                         <h5 className="sub-title help-center mg-bt-32 ">
-                            Come and join our crypto family! We mainly speak Portuguese, but we welcome people from across the globe.
+                            Thank you to our sponsors that help keep Tedcrypto running Check out their blogs below to share the support!
                         </h5>
                     </div>
                     {
@@ -32,7 +32,7 @@ const Communities = () => {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h4>{item.name}</h4>
+                                                <h4><Link to="/author-02">{item.name}</Link></h4>
                                                 <div className="infor">
                                                     <span>{item.description}</span>
                                                 </div>
@@ -56,4 +56,4 @@ const Communities = () => {
     );
 }
 
-export default Communities;
+export default Sponsors;

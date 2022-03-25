@@ -1,7 +1,7 @@
 import React from "react";
-import JoshLopes from "../../../assets/images/team/josh_lopes.png";
-import d3k010 from "../../../assets/images/team/d3k010.png";
-import Bt from "../../../assets/images/team/bt.jpg";
+import JoshLopes from "../../assets/images/team/josh_lopes.png";
+import d3k010 from "../../assets/images/team/d3k010.png";
+import Bt from "../../assets/images/team/bt.jpg";
 
 const Team = () => {
     return (

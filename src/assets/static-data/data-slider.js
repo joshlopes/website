@@ -1,6 +1,4 @@
-import img1 from '../images/slider/slide_2.png';
 import img2 from '../images/slider/slide_2.png';
-import imgbg1 from '../images/slider/bg_slide_2.png'
 import imgbg2 from '../images/slider/bg_slide_2.png'
 
 

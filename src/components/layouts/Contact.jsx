@@ -1,4 +1,4 @@
-import img1 from "../../../assets/images/blog/thumb-8.png";
+import img1 from "../../assets/images/blog/thumb-8.png";
 import axios from 'axios';
 import React from "react";
 
