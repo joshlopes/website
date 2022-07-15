@@ -5,8 +5,7 @@ import axios from 'axios';
 const Node = ({ key, info }) => {
     const [currentApr, setCurrentApr] = useState(null);
 
-    const getAPR = async (chain) => {
-        console.log(chain);
+    async function getCosmosAPR(chain) {
         let data = null;
         try {
             data = (await axios.get('https://chains.cosmos.directory/'+chain)).data;
@@ -26,8 +25,20 @@ const Node = ({ key, info }) => {
         return (data.chain.params.calculated_apr * 100).toFixed(2);
     }
 
+    async function getSolanaAPR(chain) {
+        let data = null;
+    }
+
+    const getAPR = async (chain) => {
+        if (chain.tags === "solana") {
+            return 6;
+        } else if (chain.tags === "cosmos") {
+            return await getCosmosAPR(chain.slug);
+        }
+    }
+
     useEffect(() => {
-        getAPR(info.slug).then(setCurrentApr);
+        getAPR(info).then(setCurrentApr);
     }, [info]);
 
     return <div key={key} className="fl-item col-lg-4 col-md-6 col-sm-6">

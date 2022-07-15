@@ -9,6 +9,7 @@ import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
 import stargaze from '../chains/logo/stargaze.png';
 import cosmos from '../chains/logo/cosmos.png';
 import juno from '../chains/logo/juno.png';
+import solana from '../images/crypto/solana/solana.png';
 
 const nodesData = [
     {
@@ -17,6 +18,16 @@ const nodesData = [
         tags: "cosmos",
         logo: evmosLogo,
         stakeUrl: 'https://evmos.disperze.network/validators/evmosvaloper19fv2gwkgv3x53lau3um6tzg7qxvq96grvg97zr',
+        isEnabled: true,
+        isTest: false,
+        isPartner: false,
+    },
+    {
+        slug: 'solana',
+        name: "Solana (Stake2Earn)",
+        tags: "solana",
+        logo: solana,
+        stakeUrl: 'https://solanabeach.io/validator/6559KMdiUseNSAkRcK9WcFcNTppoj6jWtKVedpMkBYCn',
         isEnabled: true,
         isTest: false,
         isPartner: true,
