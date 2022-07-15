@@ -1,5 +1,4 @@
 import React, {Fragment, useEffect, useState} from 'react';
-import PropTypes from 'prop-types'
 
 import axios from 'axios';
 
@@ -39,7 +38,7 @@ const Node = ({ key, info }) => {
                         <img src={info.logo} alt="tedcrypto" />
                     </div>
                     <div className="info">
-                        <span>Node</span>
+                        <span>{info.isPartner && "Partner" || info.isWhitelabel && "Whitelabel" || "Node"}</span>
                         <h6>{info.name}</h6>
                     </div>
                 </div>

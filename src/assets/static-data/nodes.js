@@ -6,9 +6,29 @@ import konstellationLogo from '../chains/logo/konstellation.png';
 import bitsongLogo from '../chains/logo/bitsong.png';
 import another1Logo from '../images/crypto/another1/another-1.svg';
 import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
-import comdexLogo from '../chains/logo/comdex.png';
+import stargaze from '../chains/logo/stargaze.png';
 
 const nodesData = [
+    {
+        slug: 'evmos',
+        name: "EVMOs",
+        tags: "cosmos",
+        logo: evmosLogo,
+        stakeUrl: 'https://evmos.disperze.network/validators/evmosvaloper19fv2gwkgv3x53lau3um6tzg7qxvq96grvg97zr',
+        isEnabled: true,
+        isTest: false,
+        isPartner: true,
+    },
+    {
+        slug: 'stargaze',
+        name: "Stargaze (Bad Kids)",
+        tags: "cosmos",
+        logo: stargaze,
+        stakeUrl: 'https://wallet.keplr.app/#/stargaze/stake?modal=stake&chainId=stargaze-1&validator=starsvaloper1gz645mefvu5emd0llpfjchqqpyuxt0xxq34per',
+        isEnabled: true,
+        isTest: false,
+        isWhitelabel: true,
+    },
     {
         slug: 'cryptoorgchain',
         name: "CROnquerorsNode (Partner)",
@@ -19,13 +39,12 @@ const nodesData = [
         price: 0,
     },
     {
-        slug: 'evmos',
-        name: "EVMOs",
+        slug: 'bitsong',
+        name: "Bitsong",
         tags: "cosmos",
-        logo: evmosLogo,
-        stakeUrl: 'https://evmos.disperze.network/validators/evmosvaloper19fv2gwkgv3x53lau3um6tzg7qxvq96grvg97zr',
+        logo: bitsongLogo,
+        stakeUrl: 'https://ping.pub/bitsong/staking/bitsongvaloper1qxw4fjged2xve8ez7nu779tm8ejw92rv0vcuqr',
         isEnabled: true,
-        isTest: false,
     },
     {
         slug: 'nomic',
@@ -44,27 +63,11 @@ const nodesData = [
         isEnabled: true,
     },
     {
-        slug: 'bitsong',
-        name: "Bitsong",
-        tags: "cosmos",
-        logo: bitsongLogo,
-        stakeUrl: 'https://ping.pub/bitsong/staking/bitsongvaloper1qxw4fjged2xve8ez7nu779tm8ejw92rv0vcuqr',
-        isEnabled: true,
-    },
-    {
         slug: 'odin',
         name: "Odin",
         tags: "cosmos",
         logo: odinLogo,
         stakeUrl: 'https://look.chillvalidation.com/odin/staking',
-        isEnabled: true,
-    },
-    {
-        slug: 'comdex',
-        name: "Comdex",
-        tags: "cosmos",
-        logo: comdexLogo,
-        stakeUrl: 'https://comdex.ezstaking.io/validators/comdexvaloper1zf8k0qlvr0uq4gy73ex9vhjxwlwls7kaxt9jk2',
         isEnabled: true,
     },
     {
