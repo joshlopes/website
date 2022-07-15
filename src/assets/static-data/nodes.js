@@ -7,6 +7,8 @@ import bitsongLogo from '../chains/logo/bitsong.png';
 import another1Logo from '../images/crypto/another1/another-1.svg';
 import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
 import stargaze from '../chains/logo/stargaze.png';
+import cosmos from '../chains/logo/cosmos.png';
+import juno from '../chains/logo/juno.png';
 
 const nodesData = [
     {
@@ -30,13 +32,34 @@ const nodesData = [
         isWhitelabel: true,
     },
     {
+        slug: 'cosmoshub',
+        name: "Cosmos Hub (Don Cryptonium)",
+        tags: "cosmos",
+        logo: cosmos,
+        stakeUrl: 'https://ping.pub/cosmos/staking/cosmosvaloper1rj6324uq904z5zr96zg6ew9qjyau9u6h5nflg6',
+        isEnabled: true,
+        isTest: false,
+        isWhitelabel: true,
+    },
+    {
+        slug: 'juno',
+        name: "Juno (Don Cryptonium)",
+        tags: "cosmos",
+        logo: juno,
+        stakeUrl: 'https://ping.pub/juno/staking/junovaloper1gr56uqre7dsqjkknssne7rc9wunsk08gmh3c7h',
+        isEnabled: true,
+        isTest: false,
+        isWhitelabel: true,
+    },
+    {
         slug: 'cryptoorgchain',
-        name: "CROnquerorsNode (Partner)",
+        name: "CROnquerorsNode",
         tags: "cosmos",
         logo: cryptoLogo,
         stakeUrl: 'https://wallet.keplr.app/#/crypto-org/stake?modal=detail&validator=crocncl1s078nr9kp4ulsxgnsasnr3k6zg5q9erps348eg',
         isEnabled: true,
         price: 0,
+        isPartner: true
     },
     {
         slug: 'bitsong',

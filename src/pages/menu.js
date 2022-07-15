@@ -19,7 +19,7 @@ const menus = [
     },
     {
         id: 5,
-        name: 'Sponsors',
+        name: 'Resources',
         links: '#sponsors',
         isHash: true,
     },

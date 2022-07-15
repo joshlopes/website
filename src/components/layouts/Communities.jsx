@@ -16,7 +16,7 @@ const Communities = () => {
                     <div className="col-md-12">
                         <h2 className="tf-title style4 mg-bt-38">Our Community</h2>
                         <h5 className="sub-title help-center mg-bt-32 ">
-                            Come and join our crypto family! We mainly speak Portuguese, but we welcome people from across the globe.
+                            Join our communities for help, news and advices.
                         </h5>
                     </div>
                     {

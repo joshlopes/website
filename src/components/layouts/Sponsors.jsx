@@ -10,13 +10,13 @@ const Sponsors = () => {
         setVisible((prevValue) => prevValue + 3);
     }
     return (
-        <section className="tf-section our-creater bg-style " id="sponsors">
+        <section className="tf-section our-creater bg-style " id="resources">
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="tf-title style4 mg-bt-38">Our Sponsors</h2>
+                        <h2 className="tf-title style4 mg-bt-38">Resources</h2>
                         <h5 className="sub-title help-center mg-bt-32 ">
-                            Thank you to our sponsors that help keep Tedcrypto running Check out their blogs below to share the support!
+                            Bloggers, developers and other contributors in the crypto world.
                         </h5>
                     </div>
                     {
