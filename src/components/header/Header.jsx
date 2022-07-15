@@ -38,6 +38,10 @@ const Header = () => {
         setActiveIndex(index);
     };
 
+    function renderLink(link) {
+
+    }
+
     return (
         <header id="header_main" className="header_1 js-header" ref={headerRef}>
             <div className="themesflat-container">
@@ -59,7 +63,11 @@ const Header = () => {
                                         {
                                             menus.map((data,index) => (
                                                 <li key={index} onClick={()=> handleOnClick(index)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : '' } ${activeIndex === index ? 'active' : ''} ` }   >
-                                                    <HashLink to={data.links}>{data.name}</HashLink>
+                                                    {data.isHash ? (
+                                                        <HashLink to={data.links} >{data.name}</HashLink>
+                                                    ) : (
+                                                        <a href={data.links} target="_blank">{data.name}</a>
+                                                    )}
                                                     {
                                                          data.namesub &&
                                                          <ul className="sub-menu" >
@@ -81,12 +89,6 @@ const Header = () => {
                                     </ul>
                                 </nav>
                                 <div className="flat-search-btn flex">
-
-                                    <div className="sc-btn-top mg-r-12" id="site-header">
-                                        <Link to="#" className="sc-button header-slider style style-1 wallet fl-button pri-1"><span>Wallet connect
-                                        </span></Link>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
