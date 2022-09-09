@@ -114,13 +114,13 @@ const nodesData = [
         isTest: false,
     },
     {
-        slug: 'another1',
-        name: "Another1",
+        slug: 'chihuahua',
+        name: "Chihuahua",
         tags: "cosmos",
-        logo: another1Logo,
-        stakeUrl: 'https://test-anone.zenscan.io/validator.php?addr=onevaloper1d0qd0cdzc2srvfhyqz8xsulh63agh6alex3mwt',
-        isEnabled: false,
-        isTest: true,
+        logo: chihuahuaLogo,
+        stakeUrl: 'https://restake.app/chihuahua/chihuahuavaloper1n7n0rgm37yp8rflxyhw2u75eh6j6tqnp72w5zq',
+        isEnabled: true,
+        isTest: false,
     },
 ]
 
