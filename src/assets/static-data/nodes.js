@@ -4,7 +4,7 @@ import evmosLogo from '../chains/logo/evmos.png';
 import cerberusLogo from '../chains/logo/cerberus.png';
 import konstellationLogo from '../chains/logo/konstellation.png';
 import bitsongLogo from '../chains/logo/bitsong.png';
-import another1Logo from '../images/crypto/another1/another-1.svg';
+import chihuahualogo from '../chains/logo/chihuahua.png';
 import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
 import stargaze from '../chains/logo/stargaze.png';
 import cosmos from '../chains/logo/cosmos.png';
@@ -117,7 +117,7 @@ const nodesData = [
         slug: 'chihuahua',
         name: "Chihuahua",
         tags: "cosmos",
-        logo: chihuahuaLogo,
+        logo: chihuahualogo,
         stakeUrl: 'https://restake.app/chihuahua/chihuahuavaloper1n7n0rgm37yp8rflxyhw2u75eh6j6tqnp72w5zq',
         isEnabled: true,
         isTest: false,
