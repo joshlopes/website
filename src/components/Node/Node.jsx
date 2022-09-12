@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useCallback} from 'react';
 
 import axios from 'axios';
 
@@ -25,17 +25,17 @@ const Node = ({ key, info }) => {
         return (data.chain.params.calculated_apr * 100).toFixed(2);
     }
 
-    const getAPR = async (chain) => {
+    const getAPR = useCallback(async (chain) => {
         if (chain.tags === "solana") {
             return 6;
         } else if (chain.tags === "cosmos") {
             return await getCosmosAPR(chain.slug);
         }
-    }
+    }, [])
 
     useEffect(() => {
         getAPR(info).then(setCurrentApr);
-    }, [info]);
+    }, [getAPR, info]);
 
     return <div key={key} className="fl-item col-lg-4 col-md-6 col-sm-6">
         <div className={`sc-card-product`}>

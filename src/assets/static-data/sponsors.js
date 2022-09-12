@@ -1,8 +1,16 @@
 import blockInvestLogo from '../images/sponsors/blockinvest-logo.png'
 import cryptoRuimLogo from '../images/sponsors/crypto-ruim-logo.jpg'
 import cronquerorsNode from '../images/sponsors/cronquerors_node.jpg'
+import cryptoConscious from '../images/sponsors/crypto_conscious.png'
 
 const sponsorsData = [
+    {
+        imgAuthor: cryptoConscious,
+        name: "Crypto Conscious",
+        description: 'Youtuber. Learn about crypto and cosmos',
+        link: 'https://www.youtube.com/channel/UCP-ZtZjC1UTxQcxPPcEXEbw',
+        buttonLabel: 'View',
+    },
     {
         imgAuthor: blockInvestLogo,
         name: "BlockInvest",

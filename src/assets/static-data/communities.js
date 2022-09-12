@@ -5,13 +5,13 @@ const communitiesData = [
     {
         imgAuthor: telegramIcon,
         name: "Telegram",
-        link: 'https://t.me/TedcryptoOfficial',
+        link: 'http://telegram.tedcrypto.io',
         buttonLabel: 'Join Us',
     },
     {
         imgAuthor: discordIcon,
         name: "Discord",
-        link: 'https://discord.gg/snPBETGTBj',
+        link: 'http://discord.tedcrypto.io',
         buttonLabel: 'Join Us',
     },
 ]
