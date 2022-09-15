@@ -11,6 +11,7 @@ import cosmos from '../chains/logo/cosmos.png';
 import juno from '../chains/logo/juno.png';
 import solana from '../images/crypto/solana/solana.png';
 import strideLogo from '../chain-registry/stride/images/strd.png';
+import rebusLogo from '../images/crypto/rebus/logo.jpg';
 
 const nodesData = [
     {
@@ -48,6 +49,14 @@ const nodesData = [
         tags: "cosmos",
         logo: nomicLogo,
         stakeUrl: 'https://app.nomic.io/',
+        isEnabled: true,
+    },
+    {
+        slug: 'rebus',
+        name: "Rebus",
+        tags: "cosmos",
+        logo: rebusLogo,
+        stakeUrl: 'https://app.rebuschain.com/staking',
         isEnabled: true,
     },
     {
