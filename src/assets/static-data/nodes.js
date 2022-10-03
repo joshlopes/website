@@ -12,6 +12,7 @@ import juno from '../chains/logo/juno.png';
 import solana from '../images/crypto/solana/solana.png';
 import strideLogo from '../chain-registry/stride/images/strd.png';
 import rebusLogo from '../images/crypto/rebus/logo.jpg';
+import comdexLogo from '../chain-registry/comdex/images/cmdx.png';
 
 const nodesData = [
     {
@@ -40,6 +41,15 @@ const nodesData = [
         tags: "cosmos",
         logo: strideLogo,
         stakeUrl: 'https://restake.app/stride/stridevaloper19twsea48jjup6qrfv55v0fr8hzt7zy4rul5mpg',
+        isEnabled: true,
+        isTest: false,
+    },
+    {
+        slug: 'comdex',
+        name: "Comdex",
+        tags: "cosmos",
+        logo: comdexLogo,
+        stakeUrl: 'https://restake.app/comdex/comdexvaloper1zf8k0qlvr0uq4gy73ex9vhjxwlwls7kaxt9jk2',
         isEnabled: true,
         isTest: false,
     },
