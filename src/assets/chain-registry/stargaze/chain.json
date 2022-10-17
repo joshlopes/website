@@ -3,19 +3,22 @@
   "chain_name": "stargaze",
   "status": "live",
   "network_type": "mainnet",
+  "website": "https://stargaze.zone/",
   "pretty_name": "Stargaze",
   "chain_id": "stargaze-1",
   "bech32_prefix": "stars",
   "daemon_name": "starsd",
   "node_home": "$HOME/.starsd",
   "slip44": 118,
-  "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz"
-  },
   "codebase": {
     "git_repo": "https://github.com/public-awesome/stargaze",
-    "recommended_version": "v6.0.1",
-    "compatible_versions": ["v6.0.1"]
+    "recommended_version": "v7.0.0",
+    "compatible_versions": [
+      "v7.0.0"
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz"
+    }
   },
   "peers": {
     "seeds": [
@@ -41,6 +44,11 @@
         "id": "2f7b2d38b1a4f76b20e917e01fb9f4a200bbf80c",
         "address": "seeds.pupmos.network:2004",
         "provider": "PUPMØS"
+      },
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "seeds.polkachu.com:13756",
+        "provider": "Polkachu"
       }
     ],
     "persistent_peers": [
@@ -173,6 +181,22 @@
       {
         "address": "https://stargaze.c29r3.xyz:443/rpc/",
         "provider": "c29r3"
+      },
+      {
+        "address": "https://rpc.stargaze.nodestake.top",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "https://stargaze-rpc.ibs.team",
+        "provider": "Inter Blockchain Services"
+      },
+      {
+        "address": "https://rpc-stargaze.d-stake.xyz",
+        "provider": "D-stake"
+      },
+      {
+        "address": "https://rpc.stargaze.silentvalidator.com/",
+        "provider": "silent"
       }
     ],
     "rest": [
@@ -199,6 +223,26 @@
       {
         "address": "https://stargaze.c29r3.xyz:443/api/",
         "provider": "c29r3"
+      },
+      {
+        "address": "https://stargaze-rapipc.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://api.stargaze.nodestake.top",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "https://stargaze-api.ibs.team",
+        "provider": "Inter Blockchain Services"
+      },
+      {
+        "address": "https://api-stargaze.d-stake.xyz",
+        "provider": "D-stake"
+      },
+      {
+        "address": "https://api.stargaze.silentvalidator.com/",
+        "provider": "silent"
       }
     ],
     "grpc": [
@@ -207,8 +251,20 @@
         "provider": "Notional"
       },
       {
-        "address": "stargaze-grpc.polkachu.com:37090",
+        "address": "stargaze-grpc.polkachu.com:13790",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://grpc.stargaze.nodestake.top",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "https://grpc-stargaze.d-stake.xyz",
+        "provider": "D-stake"
+      },
+      {
+        "address": "https://grpc.stargaze.silentvalidator.com/",
+        "provider": "silent"
       }
     ]
   },
@@ -219,9 +275,9 @@
       "tx_page": "https://www.mintscan.io/stargaze/txs/${txHash}"
     },
     {
-        "kind": "ping-pub",
-        "url": "https://ping.pub/stargaze",
-        "tx_page": "https://ping.pub/stargaze/tx/${txHash}"
+      "kind": "ping-pub",
+      "url": "https://ping.pub/stargaze",
+      "tx_page": "https://ping.pub/stargaze/tx/${txHash}"
     },
     {
       "kind": "atomscan",

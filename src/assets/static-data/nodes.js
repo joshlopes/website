@@ -2,7 +2,6 @@ import cryptoLogo from '../chains/logo/crypto-org.png';
 import nomicLogo from '../images/crypto/nomic/nomic-logo.svg';
 import evmosLogo from '../chains/logo/evmos.png';
 import cerberusLogo from '../chains/logo/cerberus.png';
-import konstellationLogo from '../chains/logo/konstellation.png';
 import bitsongLogo from '../chains/logo/bitsong.png';
 import chihuahualogo from '../chains/logo/chihuahua.png';
 import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
@@ -13,6 +12,7 @@ import solana from '../images/crypto/solana/solana.png';
 import strideLogo from '../chain-registry/stride/images/strd.png';
 import rebusLogo from '../images/crypto/rebus/logo.jpg';
 import comdexLogo from '../chain-registry/comdex/images/cmdx.png';
+import teritoriLogo from '../chain-registry/teritori/images/tori.svg';
 
 const nodesData = [
     {
@@ -50,6 +50,15 @@ const nodesData = [
         tags: "cosmos",
         logo: comdexLogo,
         stakeUrl: 'https://restake.app/comdex/comdexvaloper1zf8k0qlvr0uq4gy73ex9vhjxwlwls7kaxt9jk2',
+        isEnabled: true,
+        isTest: false,
+    },
+    {
+        slug: 'teritori',
+        name: "Teritori",
+        tags: "cosmos",
+        logo: teritoriLogo,
+        stakeUrl: 'https://restake.app/teritori/torivaloper1drgucz0twd0thvdkdd9gm9wf7rtarayq6ygarc',
         isEnabled: true,
         isTest: false,
     },
@@ -134,14 +143,6 @@ const nodesData = [
         stakeUrl: 'https://restake.app/chihuahua/chihuahuavaloper1n7n0rgm37yp8rflxyhw2u75eh6j6tqnp72w5zq',
         isEnabled: true,
         isTest: false,
-    },
-    {
-        slug: 'konstellation',
-        name: "Konstellation",
-        tags: "cosmos",
-        logo: konstellationLogo,
-        stakeUrl: 'https://restake.app/konstellation/darcvaloper1l4uc54aslmwlzfw3eyspf8sst96p5c609t20x9',
-        isEnabled: true,
     },
     {
         slug: 'odin',
