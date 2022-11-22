@@ -1,7 +1,6 @@
 import cryptoLogo from '../chains/logo/crypto-org.png';
 import nomicLogo from '../images/crypto/nomic/nomic-logo.svg';
 import evmosLogo from '../chains/logo/evmos.png';
-import cerberusLogo from '../chains/logo/cerberus.png';
 import bitsongLogo from '../chains/logo/bitsong.png';
 import chihuahualogo from '../chains/logo/chihuahua.png';
 import odinLogo from '../images/crypto/odin/odin_logo.jpeg';
