@@ -127,15 +127,6 @@ const nodesData = [
         isPartner: true
     },
     {
-        slug: 'cerberus',
-        name: 'Cerberus',
-        tags: "cosmos",
-        logo: cerberusLogo,
-        stakeUrl: 'https://restake.app/cerberus/cerberusvaloper1c4pewt03f0fnwrf4vcgawzl6pllm3l9kfffu7l',
-        isEnabled: true,
-        isTest: false,
-    },
-    {
         slug: 'chihuahua',
         name: "Chihuahua",
         tags: "cosmos",
