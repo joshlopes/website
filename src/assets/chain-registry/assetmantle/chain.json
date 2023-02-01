@@ -25,6 +25,21 @@
         "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
         "address": "seeds.polkachu.com:14656",
         "provider": "Polkachu"
+      },
+      {
+        "id": "990557213003ab234cc03307d02688c30357fed6",
+        "address": "seeds.whispernode.com:14656",
+        "provider": "WhisperNode🤐"
+      },
+      {
+        "id": "e1b058e5cfa2b836ddaa496b10911da62dcf182e",
+        "address": "assetmantle-seed-1.allnodes.me:26656",
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+      {
+        "id": "e726816f42831689eab9378d5d577f1d06d25716",
+        "address": "assetmantle-seed-2.allnodes.me:26656",
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
       }
     ],
     "persistent_peers": [
@@ -118,12 +133,12 @@
       },
       {
         "id": "f073d57107004268a7c0f1e24433401f892eff94",
-        "address": "sentry-1.asset-mantle.ezstaking.io:26229",
+        "address": "sentry-1.asset-mantle.ezstaking.xyz:26229",
         "provider": "EZStaking.io"
       },
       {
         "id": "68692140af51d0c41163340f6f1222eec914c18f",
-        "address": "sentry-2.asset-mantle.ezstaking.io:26746",
+        "address": "sentry-2.asset-mantle.ezstaking.xyz:26746",
         "provider": "EZStaking.io"
       },
       {
@@ -327,16 +342,16 @@
         "provider": "AssetMantle"
       },
       {
+        "address": "https://rpc-assetmantle.blockpower.capital",
+        "provider": "Blockpower"
+      },
+      {
         "address": "https://rpc-assetmantle.ecostake.com",
         "provider": "ecostake"
       },
       {
         "address": "https://assetmantle-rpc.polkachu.com",
         "provider": "Polkachu"
-      },
-      {
-        "address": "https://rpc.asset-mantle.ezstaking.io",
-        "provider": "EZStaking.io"
       },
       {
         "address": "https://rpc.assetmantle.nodestake.top",
@@ -359,10 +374,6 @@
       {
         "address": "https://rest-assetmantle.ecostake.com",
         "provider": "ecostake"
-      },
-      {
-        "address": "https://lcd.asset-mantle.ezstaking.io",
-        "provider": "EZStaking.io"
       },
       {
         "address": "https://api.assetmantle.nodestake.top",
@@ -402,9 +413,16 @@
   },
   "explorers": [
     {
+      "kind": "EZStaking Tools",
+      "url": "https://ezstaking.tools/assetmantle",
+      "tx_page": "https://ezstaking.tools/assetmantle/txs/${txHash}",
+      "account_page": "https://ezstaking.tools/assetmantle/account/${accountAddress}"
+    },
+    {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/asset-mantle",
-      "tx_page": "https://www.mintscan.io/asset-mantle/txs/${txHash}"
+      "tx_page": "https://www.mintscan.io/asset-mantle/txs/${txHash}",
+      "account_page": "https://www.mintscan.io/asset-mantle/account/${accountAddress}"
     },
     {
       "kind": "ping.pub",

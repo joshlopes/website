@@ -23,14 +23,12 @@
   },
   "codebase": {
     "git_repo": "https://github.com/BitCannaGlobal/bcna",
-    "recommended_version": "v1.4.2",
+    "recommended_version": "v1.5.3",
     "compatible_versions": [
-      "v1.4.0",
-      "v1.4.1",
-      "v1.4.2"
+      "v1.5.3"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/BitCannaGlobal/bcna/releases/download/v1.4.2/bcnad"
+      "linux/amd64": "https://github.com/BitCannaGlobal/bcna/releases/download/v1.5.3/bcnad"
     },
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json"
@@ -94,6 +92,11 @@
         "id": "0a658df9d9fab096983a12e6f878e87281a15ce6",
         "address": "bitcanna-peer.panthea.eu:27656",
         "provider": "Panthea EU"
+      },
+      {
+        "id": "57a3e858a5c860e6355683c88add28d52df6c24a",
+        "address": "38.242.232.202:26656",
+        "provider": "Inter Blockchain Services"
       }
     ]
   },
@@ -126,6 +129,14 @@
       {
         "address": "https://bitcanna-rpc.panthea.eu",
         "provider": "Panthea EU"
+      },
+      {
+        "address": "https://bitcanna.nodejumper.io",
+        "provider": "Nodejumper 🚀"
+      },
+      {
+        "address": "https://rpc-bcna.kjinc.io/",
+        "provider": "KJINC.io"
       }
     ],
     "grpc": [
@@ -144,7 +155,11 @@
       {
         "address": "https://bitcanna-grpc.lavenderfive.com:443/",
         "provider": "Lavender.Five Nodes 🐝"
-      }
+      },
+      {
+        "address": "https://bitcanna.nodejumper.io:9090",
+        "provider": "Nodejumper 🚀"
+      }      
     ],
     "rest": [
       {
@@ -170,17 +185,31 @@
       {
         "address": "https://bitcanna-api.panthea.eu",
         "provider": "Panthea EU"
-      }
+      },
+      {
+        "address": "https://bitcanna.nodejumper.io:1317",
+        "provider": "Nodejumper 🚀"
+      },
+      {
+        "address": "https://api-bcna.kjinc.io/",
+        "provider": "KJINC.io"
+      }      
     ]
   },
   "explorers": [
+    {
+      "kind": "EZStaking Tools",
+      "url": "https://ezstaking.tools/bitcanna",
+      "tx_page": "https://ezstaking.tools/bitcanna/txs/${txHash}",
+      "account_page": "https://ezstaking.tools/bitcanna/account/${accountAddress}"
+    },
     {
       "kind": "forbole",
       "url": "https://cosmos-explorer.bitcanna.io",
       "tx_page": "https://cosmos-explorer.bitcanna.io/transactions/${txHash}"
     },
     {
-      "kind": "ping-pub",
+      "kind": "ping.pub",
       "url": "https://ping.pub/bitcanna",
       "tx_page": "https://ping.pub/bitcanna/tx/${txHash}"
     },

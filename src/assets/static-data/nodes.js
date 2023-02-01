@@ -12,8 +12,19 @@ import strideLogo from '../chain-registry/stride/images/strd.png';
 import rebusLogo from '../images/crypto/rebus/logo.jpg';
 import comdexLogo from '../chain-registry/comdex/images/cmdx.png';
 import teritoriLogo from '../chain-registry/teritori/images/tori.svg';
+import marsLogo from '../chain-registry/mars/images/mars-token.png';
 
 const nodesData = [
+    {
+        slug: 'mars',
+        name: "MARS",
+        tags: "cosmos",
+        logo: marsLogo,
+        stakeUrl: 'https://restake.app/mars/marsvaloper1e7f0pv2glp5mslqze5cnv4vrwv52rtmllv4ker',
+        isEnabled: true,
+        isTest: false,
+        isPartner: false,
+    },
     {
         slug: 'evmos',
         name: "EVMOs",
