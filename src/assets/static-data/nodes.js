@@ -13,6 +13,7 @@ import rebusLogo from '../images/crypto/rebus/logo.jpg';
 import comdexLogo from '../chain-registry/comdex/images/cmdx.png';
 import teritoriLogo from '../chain-registry/teritori/images/tori.svg';
 import marsLogo from '../chain-registry/mars/images/mars-token.png';
+import whiteWhaleLogo from '../chain-registry/migaloo/images/whitewhale.png';
 
 const nodesData = [
     {
@@ -51,6 +52,15 @@ const nodesData = [
         tags: "cosmos",
         logo: strideLogo,
         stakeUrl: 'https://restake.app/stride/stridevaloper19twsea48jjup6qrfv55v0fr8hzt7zy4rul5mpg',
+        isEnabled: true,
+        isTest: false,
+    },
+    {
+        slug: 'migaloo',
+        name: "WhiteWhale",
+        tags: "cosmos",
+        logo: whiteWhaleLogo,
+        stakeUrl: 'https://restake.app/migaloo/migaloovaloper1r37anntu9wgk06jeycatp2npmytqugq586jzsh',
         isEnabled: true,
         isTest: false,
     },
